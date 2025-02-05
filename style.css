@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    background-color: rgb(55, 68, 139);
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    background-color: rgba(0, 0, 0, 0.24);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    white-space: pre-wrap;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    resize: none; 
+}
+
+input::placeholder, textarea::placeholder {
+    color: white;
+    font-style: italic;
+    position: absolute; 
+    top: 10px;
+    left: 10px;
+}
+
+.txt {
+    margin-top: 5%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {
+    background-color: rgb(37, 37, 140);
+    width: 20%;
+    height: 5px;
+    margin: 20px;
+}
+
+.iputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    width: 50vw;
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    input {
+         width: 100%;
+         height: 5vh;
+    }
+}
+
+#name {
+    margin-right: 10px;
+}
+
+.bottom {
+    margin-top: 4%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    textarea {
+        height: 25vh; 
+    }
+}
+
+.btnSend {
+    margin-top: 25px;
+    width: 30%;
+    height: 50px;
+    background-color: #14c8e8;
+    border: 2px solid #11a1bb;
+    border-radius: 4px;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btnSend:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+.btnSend:not(:hover) {
+    transition: 0.4s;
+}
+
+.media {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(26, 38, 105);
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+
+    h1{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+        background-color: rgb(26, 38, 105);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
+
+    h1:hover{
+        transition: 0.5s;
+        color: #14c8e8;
+    }
+    h1:not(:hover){
+        transition: 0.5s;
+    }
+}
