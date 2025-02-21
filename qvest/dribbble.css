@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    background-color: rgb(55, 68, 139);
+}
+
+#h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+
+}
+
+#h1:hover{
+    transition: 0.5s;
+    color: #14c8e8;
+}
+#h1:not(:hover){
+    transition: 0.5s;
+}
